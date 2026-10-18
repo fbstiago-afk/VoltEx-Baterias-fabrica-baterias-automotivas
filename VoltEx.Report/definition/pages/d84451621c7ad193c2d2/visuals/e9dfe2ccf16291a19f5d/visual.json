@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "e9dfe2ccf16291a19f5d",
+  "position": {
+    "x": 16,
+    "y": 6,
+    "z": 1010,
+    "height": 40,
+    "width": 160,
+    "tabOrder": 1010
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAxNjAgNDAiPjx0ZXh0IHg9IjIiIHk9IjI3IiBmb250LWZhbWlseT0iTW9udHNlcnJhdCwgU2Vnb2UgVUkgQmxhY2ssIEFyaWFsIEJsYWNrIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjI0IiBmaWxsPSIjRkZGRkZGIj5Wb2x0PHRzcGFuIGZpbGw9IiNGRjhDMDAiPkV4PC90c3Bhbj48L3RleHQ+PHRleHQgeD0iNzAiIHk9IjM3IiBmb250LWZhbWlseT0iTW9udHNlcnJhdCwgU2Vnb2UgVUksIEFyaWFsIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjcuNSIgbGV0dGVyLXNwYWNpbmc9IjIiIGZpbGw9IiNBM0IxQkQiPkJBVEVSSUFTPC90ZXh0Pjwvc3ZnPg=='"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "imageScaling": [
+        {
+          "properties": {
+            "imageScalingType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Fit'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

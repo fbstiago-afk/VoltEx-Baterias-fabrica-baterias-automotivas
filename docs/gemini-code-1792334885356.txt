@@ -1,0 +1,47 @@
+Atue como um Arquiteto de Soluções de BI e Especialista Sênior em UI/UX para Power BI. 
+
+Para estruturar sua resposta, por favor, processe e aplique os seguintes frameworks mentais e skills de design:
+- [Understand Anything]: Estruture os conceitos complexos de arquitetura .PBIP, Git e métricas industriais de forma lógica, clara e profunda.
+- [UI/UX Pro Max] + [Impeccable] + [Taste Skill]: Elimine qualquer viés de dashboards genéricos. Projete interfaces de extremo bom gosto, polidas, refinadas, com hierarquia de informação impecável, tipografia sofisticada e fuga do "layout de caixinhas" convencional.
+- [Humanizer]: Escreva com a naturalidade, autoridade e fluidez de um Head de Dados real falando com sua equipe sênior. Sem introduções robóticas ou clichês de IA.
+- [Awesome Design MD] + [Design.md]: Entregue a resposta no formato de um Documento de Design System / Guia de Estilo em Markdown altamente estruturado.
+- [Diagram Design] + [Frontend Slides]: Pense a navegação e a documentação como um fluxo de telas e processos que poderiam virar uma apresentação executiva interativa. Descreva os diagramas de arquitetura de forma visual.
+
+**OBJETIVO:**
+Crie o escopo técnico, o guia de design e a estrutura de desenvolvimento para um projeto de Power BI Industrial avançado focado na fabricação de baterias (VoltEx), utilizando o formato .PBIP (Power BI Project) para desenvolvimento profissional e moderno.
+
+**DIRETRIZES OBRIGATÓRIAS DE ESCOPO (Não gere dados fictícios, foque estritamente na arquitetura e UX):**
+
+**1. ARQUITETURA DO PROJETO (.PBIP)**
+- Detalhe a estrutura do ambiente considerando o formato moderno de arquivos abertos (.pbip).
+- Defina o fluxo de versionamento (Git/Azure DevOps/GitHub) para colaboração em equipe, explicando como separar o Dataset (Modelo) do Report (Visual).
+
+**2. FILOSOFIA DE DESIGN E UI/UX (Fuga do Convencional)**
+- O layout deve ser corporativo, moderno, claro e objetivo. Proíbo o uso de templates engessados ou grids de cartões tradicionais.
+- Defina uma densidade balanceada: Poucos visuais por aba, mas com aproveitamento inteligente do espaço (design fluido, sem brancos desnecessários ou "furos" na tela).
+- Especifique o uso estrito do novo painel de filtros nativo e dos Novos Visuais Nativos (New Card Visual com imagens e New Slicer) para criar layouts limpos e modulares.
+
+**3. RECURSOS VISUAIS AVANÇADOS E EXTRAS**
+- Deneb (Declarative Visualization): Especifique pelo menos 3 cenários de uso onde visuais padrão não resolvem e o Deneb (Vega-Lite) deve ser usado para gráficos industriais complexos (Exemplos sugeridos: Gráfico de Gantt de paradas de manutenção, Curva Banheira de falhas de injetoras, ou Gráfico de Calor de OEE por hora).
+- HTML Content Visual: Especifique como usar elementos HTML/CSS customizados para:
+  * O topo/header das páginas (tipografia e alinhamento perfeitos).
+  * O painel de filtros oculto (estilo drawer de aplicações web).
+  * Formatações condicionais dinâmicas e ricas baseadas no status de produção.
+- Imagens de Produtos: Especifique a integração de fotos reais dos produtos industriais e componentes nas tabelas, matrizes ou tooltips dinâmicos, usando URLs hospedadas ou base64, criando catálogos visuais integrados aos dados.
+
+**4. NAVEGAÇÃO, FILTROS E TOOLTIPS**
+- Painel de Filtros Oculto/Retrátil: Estruture com base em botões e indicadores (bookmarks/seleção), simulando menus laterais ou modais de alta fidelidade com topo em HTML.
+- Transparência de Filtros (Breadcrumbs): O painel deve conter uma seção em HTML ou DAX formatado que mostre explícita e elegantemente quais filtros estão ativos no momento (Trilha de filtros).
+- Tooltips Avançados de Página: Defina como criar tooltips dinâmicos que mostram mini-gráficos (sparklines), detalhes do OEE e a foto do produto ou maquinário focado.
+
+**5. ESTRUTURA DE ABAS (7 Abas Analíticas Industriais)**
+Especifique o fluxo de leitura visual (Storytelling), os visuais nativos modernos aplicados, a inserção de Deneb/HTML e o conteúdo do Tooltip personalizado para as seguintes abas:
+- Aba 1: Sumário Executivo / Insights da Operação (Visão Macro)
+- Aba 2: Eficiência de Equipamentos (OEE, Disponibilidade, Performance, Qualidade)
+- Aba 3: Gestão de Manutenção (Preditiva, Corretiva, MTBF, MTTR)
+- Aba 4: Produtividade e Linhas de Montagem (Gargalos e Turnos)
+- Aba 5: Controle de Qualidade e Desperdício (Scrap, Rastreabilidade, Ocorrências)
+- Aba 6: Estoque e Cadeia de Suprimentos (Giro, Peças de Reposição e Logística Reversa - EcoCiclo)
+- Aba 7: Custos Industriais e Paradas Operacionais (Impacto Financeiro)
+
+Entregue este guia estruturado por seções técnicas, com formatação em Markdown impecável, pronto para ser lido e executado por uma equipe de desenvolvedores BI e designers.

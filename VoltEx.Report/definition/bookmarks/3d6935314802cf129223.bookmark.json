@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Produtividade · Filtros abertos",
+  "name": "3d6935314802cf129223",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "26075b0a41bee7432fc7",
+      "4f9d9c42e5b7ab8952e2",
+      "ed80c3e08a4c5728502a",
+      "916125fa0fdfdea999ed",
+      "0484faad2c7027050d39",
+      "7ff8d92c61a8c2298ea3",
+      "608e7396ca6b21b56c6c",
+      "7b728357c088988ff859",
+      "e8ac8ca0e885e8552cc9",
+      "f4ac5770e5912c97ba45",
+      "acd962533978217fbde0",
+      "0ef0ec196d8bcc7cb055",
+      "925de389bab7dbb38a7f",
+      "9ef193ebde4f49ce90f5"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "3c9fa0241f8c4e6228ca",
+    "sections": {
+      "3c9fa0241f8c4e6228ca": {
+        "visualContainers": {
+          "4f9d9c42e5b7ab8952e2": {},
+          "ed80c3e08a4c5728502a": {},
+          "916125fa0fdfdea999ed": {},
+          "0484faad2c7027050d39": {},
+          "7ff8d92c61a8c2298ea3": {},
+          "608e7396ca6b21b56c6c": {},
+          "7b728357c088988ff859": {},
+          "e8ac8ca0e885e8552cc9": {},
+          "f4ac5770e5912c97ba45": {},
+          "acd962533978217fbde0": {},
+          "0ef0ec196d8bcc7cb055": {},
+          "925de389bab7dbb38a7f": {},
+          "9ef193ebde4f49ce90f5": {}
+        },
+        "visualContainerGroups": {
+          "26075b0a41bee7432fc7": {
+            "isHidden": false
+          }
+        }
+      }
+    }
+  }
+}

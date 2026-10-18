@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Custos e Paradas · Filtros abertos",
+  "name": "fc62fd3e5b3bc0632b4c",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "796666ecb1a2c2e1beaf",
+      "f3a021586de10a32f764",
+      "45fcc319b74cf9364009",
+      "be273751121ad8d73ef5",
+      "4b5959d53403f240ff31",
+      "534e4a7a08c02de5adc3",
+      "bbad02da51cf6906aad7",
+      "465879cf0e043d054d6d",
+      "d498d419f695d34f70ad",
+      "ca7f59fb6fb409c480a4",
+      "165b96e2bfe6de048637",
+      "203daed678be31a72dfc",
+      "424e541828165716b7d2",
+      "1ef0b3d9c3196153076f"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "d84451621c7ad193c2d2",
+    "sections": {
+      "d84451621c7ad193c2d2": {
+        "visualContainers": {
+          "f3a021586de10a32f764": {},
+          "45fcc319b74cf9364009": {},
+          "be273751121ad8d73ef5": {},
+          "4b5959d53403f240ff31": {},
+          "534e4a7a08c02de5adc3": {},
+          "bbad02da51cf6906aad7": {},
+          "465879cf0e043d054d6d": {},
+          "d498d419f695d34f70ad": {},
+          "ca7f59fb6fb409c480a4": {},
+          "165b96e2bfe6de048637": {},
+          "203daed678be31a72dfc": {},
+          "424e541828165716b7d2": {},
+          "1ef0b3d9c3196153076f": {}
+        },
+        "visualContainerGroups": {
+          "796666ecb1a2c2e1beaf": {
+            "isHidden": false
+          }
+        }
+      }
+    }
+  }
+}

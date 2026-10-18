@@ -1,0 +1,91 @@
+table Fato_Vendas
+	lineageTag: bfbc9619-48cf-56f0-800f-c97230489ff7
+
+	column ID_Venda
+		dataType: int64
+		isHidden
+		lineageTag: 5b553b37-06b4-5e35-9b40-879d4adc35f3
+		summarizeBy: none
+		sourceColumn: ID_Venda
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Venda
+		dataType: dateTime
+		isHidden
+		formatString: dd/mm/yyyy
+		lineageTag: 022448d7-3b45-56ab-a17d-4352c7ffff0a
+		summarizeBy: none
+		sourceColumn: Data_Venda
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ID_Produto
+		dataType: int64
+		isHidden
+		lineageTag: d6745365-69e2-57a1-9467-09a810972da0
+		summarizeBy: none
+		sourceColumn: ID_Produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Cliente
+		dataType: int64
+		isHidden
+		lineageTag: 51a0a593-a846-5a17-94de-74f741d32648
+		summarizeBy: none
+		sourceColumn: ID_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Fabrica
+		dataType: int64
+		isHidden
+		lineageTag: 5369b147-9533-522e-832b-7b0529636be9
+		summarizeBy: none
+		sourceColumn: ID_Fabrica
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantidade
+		dataType: int64
+		isHidden
+		lineageTag: 80e116a4-7bba-522e-95c1-ac0ad0d2cd2b
+		summarizeBy: sum
+		sourceColumn: Quantidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Valor_Desconto
+		dataType: double
+		isHidden
+		lineageTag: 3311c775-a63a-5c9f-bece-abb660d84d5b
+		summarizeBy: sum
+		sourceColumn: Valor_Desconto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fato_Vendas = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook ( File.Contents ( CaminhoBase ), null, true ),
+				    Planilha = Fonte{[Item = "Fato_Vendas", Kind = "Sheet"]}[Data],
+				    Cabecalho = Table.PromoteHeaders ( Planilha, [PromoteAllScalars = true] ),
+				    Tipos = Table.TransformColumnTypes ( Cabecalho, {
+				        {"ID_Venda", Int64.Type},
+				        {"Data_Venda", type date},
+				        {"ID_Produto", Int64.Type},
+				        {"ID_Cliente", Int64.Type},
+				        {"ID_Fabrica", Int64.Type},
+				        {"Quantidade", Int64.Type},
+				        {"Valor_Desconto", type number}
+				    } ),
+				    Resultado = Tipos
+				in
+				    Resultado
+
+	annotation PBI_ResultType = Table
+

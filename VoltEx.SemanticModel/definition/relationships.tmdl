@@ -1,0 +1,52 @@
+relationship 61410845-5e5a-58fc-a587-d41e8f9f3ae7
+	fromColumn: Fato_Vendas.Data_Venda
+	toColumn: Dim_Calendario.Data
+
+relationship 605c67a9-4109-53dc-b8c9-ea0da3d8d864
+	fromColumn: Fato_Producao.Data_Producao
+	toColumn: Dim_Calendario.Data
+
+relationship 3f620aba-80c3-5511-b745-d7aa6e635987
+	fromColumn: Fato_Coleta_Cascos.Data_Coleta
+	toColumn: Dim_Calendario.Data
+
+relationship 478985bd-fa43-5ac7-9ba5-16c57f1fb191
+	fromColumn: Fato_Estoque_Mensal.Data_Referencia
+	toColumn: Dim_Calendario.Data
+
+relationship bac6b9c4-4c81-539e-bc83-9fe96e9f042f
+	fromColumn: Fato_Vendas.ID_Produto
+	toColumn: Dim_Produto.ID_Produto
+
+relationship c4af6aab-8b32-5e74-977f-7c031b4d6b50
+	fromColumn: Fato_Producao.ID_Produto
+	toColumn: Dim_Produto.ID_Produto
+
+relationship 3da797ff-31fa-5ec6-af99-40456fca09c2
+	fromColumn: Fato_Coleta_Cascos.ID_Produto
+	toColumn: Dim_Produto.ID_Produto
+
+relationship 7652dce6-8795-511e-acec-d84ce6a04ae1
+	fromColumn: Fato_Estoque_Mensal.ID_Produto
+	toColumn: Dim_Produto.ID_Produto
+
+relationship 31e1baa7-6171-53a7-96df-e4fbcc884ceb
+	fromColumn: Fato_Vendas.ID_Cliente
+	toColumn: Dim_Cliente.ID_Cliente
+
+relationship 23f263b3-60e4-5fc3-b28a-59af85bf5556
+	fromColumn: Fato_Coleta_Cascos.ID_Cliente
+	toColumn: Dim_Cliente.ID_Cliente
+
+relationship c10f5b60-cf1e-55b5-92f0-2fa87016a2e4
+	fromColumn: Fato_Vendas.ID_Fabrica
+	toColumn: Dim_Fabrica.ID_Fabrica
+
+relationship 6ecd7f4a-ca59-5375-8c80-f4dd37bd3d50
+	fromColumn: Fato_Producao.ID_Fabrica
+	toColumn: Dim_Fabrica.ID_Fabrica
+
+relationship c809b3cb-44c0-577a-a4b6-3ee4395296c2
+	fromColumn: Fato_Estoque_Mensal.ID_Fabrica
+	toColumn: Dim_Fabrica.ID_Fabrica
+

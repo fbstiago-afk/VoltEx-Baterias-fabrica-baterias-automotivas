@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Manutenção · Filtros abertos",
+  "name": "7fb94a833498741db94a",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "8651446c10490876de7c",
+      "8703d262ccff70721c85",
+      "b878bb958ca85a505e4c",
+      "6d97ef4c445820f5c791",
+      "4871e77c283e32275ecb",
+      "3f4eee80aa3b83097869",
+      "ce9ab264548faf41d283",
+      "80b194d2ce65e8c94b08",
+      "c5ca92b15781db9fb3d2",
+      "9ffcaeefe2ba4350997b",
+      "14ebd4bab92d0e5dfc20",
+      "2d62dcadd84e38b4f3a7",
+      "ea46cabd604ad82cdb6c",
+      "53f723e8f0ebb574e825"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "21e54ea3427bcc316cd4",
+    "sections": {
+      "21e54ea3427bcc316cd4": {
+        "visualContainers": {
+          "8703d262ccff70721c85": {},
+          "b878bb958ca85a505e4c": {},
+          "6d97ef4c445820f5c791": {},
+          "4871e77c283e32275ecb": {},
+          "3f4eee80aa3b83097869": {},
+          "ce9ab264548faf41d283": {},
+          "80b194d2ce65e8c94b08": {},
+          "c5ca92b15781db9fb3d2": {},
+          "9ffcaeefe2ba4350997b": {},
+          "14ebd4bab92d0e5dfc20": {},
+          "2d62dcadd84e38b4f3a7": {},
+          "ea46cabd604ad82cdb6c": {},
+          "53f723e8f0ebb574e825": {}
+        },
+        "visualContainerGroups": {
+          "8651446c10490876de7c": {
+            "isHidden": false
+          }
+        }
+      }
+    }
+  }
+}

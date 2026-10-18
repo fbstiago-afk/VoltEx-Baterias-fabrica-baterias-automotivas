@@ -1,0 +1,144 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Estoque e EcoCiclo · Filtros fechados",
+  "name": "01a3e192be746e7862e5",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "8e86aa9d67561f93eb74",
+      "f6cd7fe30af330b15c32",
+      "d7daeee387eb16a4e51f",
+      "595933c6037b9ffccdd7",
+      "d369d716bf701131c2b8",
+      "e9bcc9ecf230b912d829",
+      "c6beea165e86b6742e6d",
+      "3e7c7e8c8d7f1d484f8f",
+      "bb34a27136e741d022ae",
+      "cfe08a06c17668355810",
+      "2f57e99601e40d016c67",
+      "31185fb5e3833a683c01",
+      "3459b309820041f4b18e",
+      "500d42ae44d684d7b5eb"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "d4d766f01d2dcd61fe86",
+    "sections": {
+      "d4d766f01d2dcd61fe86": {
+        "visualContainers": {
+          "f6cd7fe30af330b15c32": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "d7daeee387eb16a4e51f": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "595933c6037b9ffccdd7": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "d369d716bf701131c2b8": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "e9bcc9ecf230b912d829": {
+            "singleVisual": {
+              "visualType": "htmlContent443BE3AD55E043BF878BED274D3A6865",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "c6beea165e86b6742e6d": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "3e7c7e8c8d7f1d484f8f": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "bb34a27136e741d022ae": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "cfe08a06c17668355810": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "2f57e99601e40d016c67": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "31185fb5e3833a683c01": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "3459b309820041f4b18e": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "500d42ae44d684d7b5eb": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "8e86aa9d67561f93eb74": {
+            "isHidden": true
+          }
+        }
+      }
+    }
+  }
+}

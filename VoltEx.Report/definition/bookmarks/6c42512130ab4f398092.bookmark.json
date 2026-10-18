@@ -1,0 +1,144 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Qualidade e Refugo · Filtros fechados",
+  "name": "6c42512130ab4f398092",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "a1f3c9d339dcaf0712bc",
+      "8bf6d23845340a11188b",
+      "eaa55de34d97162c0ceb",
+      "942bc10a80412102aa52",
+      "eda0718b2f7f2b4b0d70",
+      "b821df9cb90a2fe15277",
+      "124feaf48e7f54d0f227",
+      "ef6cba33bf8ccf12ff77",
+      "0bb9507d1dbc7248767a",
+      "dddcd5119aa11158cd6e",
+      "8ad5eac64bb476191825",
+      "6a3edba7adc791edfda6",
+      "56c6445f500d75afc777",
+      "dbef4c52f72f35bddaa1"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "5fe1bfb2fa00cf7d010b",
+    "sections": {
+      "5fe1bfb2fa00cf7d010b": {
+        "visualContainers": {
+          "8bf6d23845340a11188b": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "eaa55de34d97162c0ceb": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "942bc10a80412102aa52": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "eda0718b2f7f2b4b0d70": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "b821df9cb90a2fe15277": {
+            "singleVisual": {
+              "visualType": "htmlContent443BE3AD55E043BF878BED274D3A6865",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "124feaf48e7f54d0f227": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "ef6cba33bf8ccf12ff77": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "0bb9507d1dbc7248767a": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "dddcd5119aa11158cd6e": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "8ad5eac64bb476191825": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "6a3edba7adc791edfda6": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "56c6445f500d75afc777": {
+            "singleVisual": {
+              "visualType": "image",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "dbef4c52f72f35bddaa1": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "a1f3c9d339dcaf0712bc": {
+            "isHidden": true
+          }
+        }
+      }
+    }
+  }
+}

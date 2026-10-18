@@ -1,0 +1,185 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "9a803d9408cce266c79b",
+  "position": {
+    "x": 196,
+    "y": 1,
+    "z": 1110,
+    "height": 44,
+    "width": 1068,
+    "tabOrder": 1110
+  },
+  "visual": {
+    "visualType": "htmlContent443BE3AD55E043BF878BED274D3A6865",
+    "query": {
+      "queryState": {
+        "content": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Header OEE"
+                }
+              },
+              "queryRef": "_Medidas.Header OEE",
+              "nativeQueryRef": "Header OEE"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "contentFormatting": [
+        {
+          "properties": {
+            "showRawHtml": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11.0D"
+                }
+              }
+            },
+            "fontColour": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "align": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            },
+            "noDataMessage": {
+              "expr": {
+                "Literal": {
+                  "Value": "' '"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "stylesheet": [
+        {
+          "properties": {
+            "stylesheet": {
+              "expr": {
+                "Literal": {
+                  "Value": "'\n@keyframes vxUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}\n@keyframes vxLeft{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}\n@keyframes vxRight{from{opacity:0;transform:translateX(16px)}to{opacity:1;transform:none}}\n@keyframes vxPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}\n@keyframes vxGlow{0%,100%{box-shadow:0 0 0 rgba(255,140,0,0)}50%{box-shadow:0 0 12px rgba(255,140,0,.55)}}\n@keyframes vxPop{0%{opacity:0;transform:scale(.7)}70%{transform:scale(1.06)}100%{opacity:1;transform:none}}\n@keyframes vxFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}\n@keyframes vxGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}\n@keyframes vxDraw{from{stroke-dashoffset:900}to{stroke-dashoffset:0}}\n@keyframes vxShine{0%{background-position:-200px 0}100%{background-position:200px 0}}\n.vx-k{animation:vxUp .6s cubic-bezier(.2,.7,.2,1) both}\n.vx-k:nth-child(2){animation-delay:.07s}.vx-k:nth-child(3){animation-delay:.14s}.vx-k:nth-child(4){animation-delay:.21s}.vx-k:nth-child(5){animation-delay:.28s}.vx-k:nth-child(6){animation-delay:.35s}\n.vx-k:hover .vx-v{color:#FF8C00;transition:color .25s}\n.vx-dot{transform-box:fill-box;transform-origin:center;animation:vxPulse 2.4s ease-in-out infinite}\n.vx-h{animation:vxLeft .6s ease-out both}\n.vx-ht{background:linear-gradient(90deg,#FFFFFF 0%,#FFFFFF 40%,#FFB547 50%,#FFFFFF 60%,#FFFFFF 100%);background-size:400px 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:vxShine 6s linear infinite}\n.vx-chip{animation:vxGlow 2.6s ease-in-out infinite}\n.vx-pop{animation:vxPop .45s ease-out both}\n.vx-i{animation:vxRight .55s ease-out both}\n.vx-i:nth-of-type(2){animation-delay:.12s}.vx-i:nth-of-type(3){animation-delay:.24s}.vx-i:nth-of-type(4){animation-delay:.36s}.vx-i:nth-of-type(5){animation-delay:.48s}\n.vx-c{animation:vxUp .6s ease-out both;transition:transform .25s,background .25s;border-radius:8px}\n.vx-c:nth-child(2){animation-delay:.08s}.vx-c:nth-child(3){animation-delay:.16s}.vx-c:nth-child(4){animation-delay:.24s}.vx-c:nth-child(5){animation-delay:.32s}.vx-c:nth-child(6){animation-delay:.40s}\n.vx-c:hover{transform:translateY(-4px);background:rgba(255,140,0,.07)}\n.vx-img{animation:vxFloat 4s ease-in-out infinite;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45))}\n.vx-c:nth-child(even) .vx-img{animation-delay:-2s}\n.vx-tt{animation:vxUp .35s ease-out both}\n.vx-bar{transform-origin:left;animation:vxGrow .8s cubic-bezier(.2,.7,.2,1) both}\n.vx-spark{stroke-dasharray:900;animation:vxDraw 1.4s ease-out both}\n/* capa: energia */\n@keyframes vxFlow{to{stroke-dashoffset:-120}}\n@keyframes vxNode{0%,100%{opacity:.4;r:4}50%{opacity:1;r:9}}\n@keyframes vxSpark{from{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}to{offset-distance:100%;opacity:0}}\n.vx-glow{filter:drop-shadow(0 0 4px #FF8C00) drop-shadow(0 0 12px rgba(255,140,0,.85))}\n.vx-base{fill:none;stroke:#FF8C00;stroke-opacity:.35;stroke-width:1.6}\n.vx-flow{fill:none;stroke:#FFD08A;stroke-width:3;stroke-linecap:round;stroke-dasharray:24 36;animation:vxFlow 1.8s linear infinite}\n.vx-flow.e2,.vx-flow.f2,.vx-flow.f5{animation-duration:1.6s}.vx-flow.e4,.vx-flow.f3{animation-duration:2.8s}.vx-flow.e6,.vx-flow.f6{animation-direction:reverse}\n.vx-node{fill:#FFB547;animation:vxNode 2s ease-in-out infinite}\n.vx-node.n1{animation-delay:.5s}.vx-node.n2{animation-delay:1s}.vx-node.n3{animation-delay:1.5s}\n.vx-spk{fill:#FFFFFF;r:4;offset-rotate:0deg;animation:vxSpark 3s linear infinite}\n.vx-spk.s1{animation-delay:.4s}.vx-spk.s2{animation-delay:.9s}.vx-spk.s3{animation-delay:1.3s}.vx-spk.s4{animation-delay:1.8s}.vx-spk.s5{animation-delay:2.2s}.vx-spk.s6{animation-delay:.6s;animation-duration:4s}.vx-spk.s7{animation-delay:2.6s;animation-duration:4s}.vx-spk.s8{animation-delay:1.1s}.vx-spk.s9{animation-delay:2s}.vx-spk.s10{animation-delay:.3s;animation-duration:3.6s}.vx-spk.s11{animation-delay:1.6s;animation-duration:3.6s}\n'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "compatibility": [
+        {
+          "properties": {
+            "legacyRendering": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
