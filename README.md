@@ -1,5 +1,12 @@
 # ⚡ VoltEx Baterias — BI Industrial em Power BI (.pbip)
 
+<!-- portfolio-link:start -->
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20o%20painel%20no%20portf%C3%B3lio-Bocardi%20Data-6C3BAA?style=for-the-badge)](https://bocardidata.base44.app/ProjectDetail?id=voltex-baterias)
+
+> 🔗 **Quer ver o visual do Power BI?** Acesse a página do projeto no portfólio: **[https://bocardidata.base44.app/ProjectDetail?id=voltex-baterias](https://bocardidata.base44.app/ProjectDetail?id=voltex-baterias)**
+<!-- portfolio-link:end -->
+
+
 **Sistema integrado de performance para uma fábrica de baterias automotivas**: chão de fábrica, vendas, estoque e logística reversa (EcoCiclo) num único modelo, com KPIs industriais traduzidos em reais.
 
 ![Capa](docs/screenshots/01-capa.jpg)

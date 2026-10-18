@@ -1,6 +1,0 @@
-/// Caminho completo do Excel de origem. Altere em Transformar dados › Gerenciar parâmetros.
-expression CaminhoBase = "E:\Projetos BI\14 - Voltex baterias\Base_VoltEx_Dashboard_Completo.xlsx" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
-	lineageTag: c478141c-b2cc-5880-a934-d2f778677709
-
-	annotation PBI_ResultType = Text
-
